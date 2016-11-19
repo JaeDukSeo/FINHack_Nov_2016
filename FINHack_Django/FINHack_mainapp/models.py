@@ -10,3 +10,9 @@ class Mainapp(models.Model):
 
 	def __unicode__(self):
 		return self.email
+
+class CreateRoom(models.Model):
+	room_name  = models.CharField(max_length = 1000,blank = True, null = True)
+
+	def __unicode__(self):
+		return self.room_name
