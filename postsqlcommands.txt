@@ -1,0 +1,13 @@
+Nov 18 - Commands to type into postgresql terminal
+
+1. Create role with password 
+	create role finhack_user with password '1234';
+
+1.5 you should see 
+	CREATE ROLE
+
+2. create the database
+	create database finhack owner finhack_user;
+
+2.5 you should see this
+	CREATE DATABASE

@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'FINHack_Django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'FINHACK',
-        'USER': 'FINHACK_user',
-        'PASSWORD': 'FIHHACK_password',
+        'NAME': 'finhack',
+        'USER': 'temp',
+        'PASSWORD': 'pg',
         'HOST': 'localhost',
         'PORT': '5432',
     }
