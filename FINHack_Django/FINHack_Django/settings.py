@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'finhack',
-        'USER': 'temp',
-        'PASSWORD': 'pg',
+        'USER': 'finhack_user',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '5432',
     }
